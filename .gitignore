@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Django
+*.pyc
+__pycache__/
+backend-env/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
