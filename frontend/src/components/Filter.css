@@ -1,0 +1,14 @@
+.filter-container {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.genre-filter, .service-filter {
+    margin-bottom: 1em;
+}
+
+.genre-filter label, .service-filter label {
+    margin-right: 0.5em;
+}
