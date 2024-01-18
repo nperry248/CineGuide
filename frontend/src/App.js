@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Filter from './components/Filter';
 import MovieList from './components/MovieList'; // Ensure you have this component
 import './App.css';
@@ -69,7 +69,7 @@ function App() {
                 genres: genreQuery,
                 source_ids: sourceQuery,
                 types: "movie",
-                limit: 3,
+                limit: 4,
                 // Add more parameters as needed
             });
 
@@ -91,7 +91,7 @@ function App() {
     return (
         <div className="App">
             <header>
-                <h1>CineGuide: Your Movie Recommendation System</h1>
+                <h1>CineGuide</h1>
             </header>
             <main>
             <Filter
@@ -103,7 +103,7 @@ function App() {
                 genreMap={genreMap} // Pass the genreMap
                 onGenreChange={handleGenreChange}  // Pass the handler for genre change
                 onServiceChange={handleServiceChange}  // Pass the handler for source change
-/>
+            />
                 <button onClick={fetchMovies}>Get Movies</button>
                 {isLoading && <p>Loading...</p>}
                 {!isLoading && !error && movies.length > 0 && <MovieList movies={movies} />}

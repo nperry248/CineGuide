@@ -1,94 +1,52 @@
+/* App.css */
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  line-height: 1.6;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-h2 {
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-  overflow: auto;
-  padding: 0 20px;
-}
-
-.filter-container {
+.App {
+  font-family: 'Lucida Console', monospace;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  padding: 20px;
-  padding-left: 250px;
-  background: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  padding-right: 250px;
+  color: #3a8d8b;
+  flex-direction: column;
+  align-items: center;
+  background-color: #878e875e;
+  min-height: 100vh; /* Full height of the viewport */
+  /* Add any additional styling such as padding, margin, background, etc. */
 }
 
-.filter-section {
-  flex: 1;
-  margin: 0 10px;
+header h1 {
+  text-align: center; /* Center-align the header text */
+  margin: 20px 0; /* Add some space around the header */
 }
 
-.filter-section label {
-  display: block;
-  margin: 10px 0;
-  cursor: pointer;
+main {
+  width: 100%; /* Set a specific width or max-width if you want to limit the content width */
+  max-width: 75%; /* Optional: Set a max-width for larger screens */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.filter-section input[type='checkbox'] {
-  margin-right: 5px;
-}
+
 
 button {
+  justify-content: center;
   display: block;
-  width: 100%;
+  width: 40%;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #3a8d8b; /* Teal color */
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25);
   cursor: pointer;
   font-size: 18px;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #41a5a3; /* Slightly darker blue on hover */
+  transition: background-color 0.3s ease;
 }
 
-.movies-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.movie-card {
-  flex: 1;
-  min-width: 200px; /* adjust minimum width as needed */
-  max-width: calc(25% - 20px); /* adjust according to the gap */
-  background: #fff;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px; /* Space between rows */
-}
 
 
 

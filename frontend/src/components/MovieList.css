@@ -1,8 +1,10 @@
 .movie-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    color: #3a8d8b;
 }
+
 
 .movie-item {
     border: 1px solid #ccc;
@@ -10,10 +12,10 @@
     margin: 10px;
     width: 300px;
     text-align: center;
+    color: #3a8d8b;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
-.movie-item h3 {
-    color: #333;
-}
 
 
