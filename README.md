@@ -1,5 +1,7 @@
 # CineGuide
 
+URL: https://cineguide-wheat.vercel.app/
+
 An AI-powered movie discovery app. Describe your mood in plain English and CineGuide finds movies that match — complete with streaming availability, ratings, and full details.
 
 ```
