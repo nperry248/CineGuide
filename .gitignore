@@ -1,13 +1,6 @@
-# Node modules
 node_modules/
-
-# Django
+dist/
+.env
+.DS_Store
 *.pyc
 __pycache__/
-
-
-# macOS
-.DS_Store
-
-# VSCode
-.vscode/
